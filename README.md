@@ -2,7 +2,7 @@
 A fully responsive and modern personal portfolio website to showcase my skills, services, and projects. Built with HTML, CSS, and JavaScript, this site highlights my work as a frontend developer and UI/UX designer.
 🔗 Demo Link
 
-👉 http://127.0.0.1:5500/My%20Portfolio/index.html
+👉(https://diana25-blip.github.io/CodeAlpha_Persportfolio/)
 
 ## Features
 

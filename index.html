@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/30085199e7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <img src="images/logo (1).png" alt="Logo" class="logo" />
+        <nav>
+            <i class="fas fa-bars" id="menu-icon" onclick="showMenu()"></i>
+            <ul class="nav-list" id="navLinks">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" id="close-icon" onclick="hideMenu()"></i>
+            </ul>
+        </nav>
+        <div class="row1">
+            <div class="home-col-1">
+                <img src="images/MyImage1.png" alt="Mehwish Ahad">
+            </div>
+
+            <div class="home-col-2">
+                <h2><strong>Hi, I'm Mehwish</strong></h2>
+                <p>A passionate Frontend Developer from India, dedicated to build visually engaging and user-friendly
+                    web experiences. I specialize in building responsive interfaces with thoughtful design, and a strong
+                    focus on performance. Whether it's transforming ideas into intuitive layouts or bringing designs to
+                    life with precision, I enjoy every step of the creative process.</p>
+                <div class="home-btn-wrapper">
+                    <a href="#about" class="btn-see-more">See More</i></a>
+                    <a href="#portfolio" class="btn-projects">Projects  <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-------------about----------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutimg(1).jpg" alt="Description" class="custom-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-text">I am a passionate Frontend Developer with a strong foundation in HTML, CSS,
+                        JavaScript, and modern frameworks like React. I specialize in creating responsive, and
+                        user-friendly web interfaces that enhance user experience and accessibility. With a solid
+                        understanding of design principles and a creative mindset, I bring ideas to life through
+                        intuitive UI/UX.
+                        Beyond coding, I enjoy solving complex problems using Data Structures and Algorithms, which
+                        helps me write optimized and efficient code. I’m continuously learning and exploring new
+                        technologies to stay updated in the fast-evolving tech landscape.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------services----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div class="S1">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p class="text1">As a creative and user-focused web designer, I specialize in crafting visually
+                        appealing and
+                        responsive website layouts that not only look great but also offer seamless user experiences. I
+                        combine modern design trends with intuitive UI/UX principles to ensure each design is tailored
+                        to your brand's identity and audience needs. From wireframes to fully responsive web pages,
+                        I turn ideas into interactive digital experiences that leave a lasting impression.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="S2">
+                    <i class="fa-brands fa-connectdevelop"></i>
+                    <h2>Frontend Development</h2>
+                    <p class="text2">I specialize in building responsive, high-performance web interfaces that deliver
+                        seamless
+                        experiences across devices. My development approach emphasizes on modular, and maintainable code
+                        that ensures long-term scalability and ease of collaboration. Whether it’s developing
+                        single-page applications,
+                        optimizing website performance, or integrating APIs, I focus on creating intuitive user
+                        interfaces that are both efficient and visually engaging.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="S3">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p class="text3">Develop and build intuitive, and user-focused interface designs tailored for web
+                        and mobile platforms. Tools like Adobe Photoshop are used to craft visually striking elements
+                        and polished assets, ensuring
+                        consistency with brand identity and design standards. Every design is created with a focus on
+                        seamless interaction, accessibility, and an engaging user journey.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- --------------------------portfolio-------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <!-----------------Project 1------------------->
+                <div class="work">
+                    <img src="images/Exptracker2.png" alt="Expense Tracker" class="custom-image1">
+                    <div class="layer">
+                        <h3>Expense Tracker</h3>
+                        <p>A simple and intuitive tool for managing personal finances. It allows users to add income and
+                            expenses, view recent transactions, and see their overall balance. Designed with a clean
+                            layout, it makes budgeting straightforward and accessible.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-----------------Project 2------------------->
+                <div class="work">
+                    <img src="images/Portscanner1.png" alt="Port Scanner" class="custom-image2">
+                    <div class="layer">
+                        <h3>Port Scanner</h3>
+                        <p>A tool designed to idetify open ports on the network.It helps users
+                            detect security risks by scanning specified IP addresses for active services. Commonly
+                            used in cybersecurity assessments and system diagnostics, port scanners help reveal exposed
+                            services that may be vulnerable to attacks. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single centered button BELOW work-list -->
+            <div class="work-btn-wrapper">
+                <a href="#" class="btn">See More</a>
+            </div>
+            <!-----------------------contact------------------------>
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i>mehwishahad46@gmail.com</p>
+                            <p><i class="fa-solid fa-square-phone"></i>9310053411</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/mehwish-ahad-a22a84254/"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.snapchat.com/web"><i class="fa-brands fa-snapchat"></i></a>
+                            </div>
+                            <a href="Files/Resume.pdf" download class="btn btn-2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="Email" name="email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2025 Mehwish Ahad. All rights reserved.</p>
+                </div>
+            </div>
+            <script>
+                function showMenu() {
+                    document.getElementById("navLinks").classList.add("active");
+                }
+
+                function hideMenu() {
+                    document.getElementById("navLinks").classList.remove("active");
+                }
+            </script>
+
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbw1bteu274AZUneJAXwHj02ZennyYCic5f8laxrzH3H1FSgOr2MdC7nLlFviUZuNPBFrg/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById("msg")
+                form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                        .then(response => {
+                            msg.innerHTML = "Message sent successfully"
+                            setTimeout(function () {
+                                msg.innerHTML = ""
+                            }, 5000)
+                            form.reset()
+                        }
+                        )
+                        .catch(error => console.error('Error!', error.message))
+                })
+            </script>
+</body>
+
+</html>
